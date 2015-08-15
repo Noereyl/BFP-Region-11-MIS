@@ -50,6 +50,19 @@
             this.LeftToolStripPanel = new System.Windows.Forms.ToolStripPanel();
             this.ContentPanel = new System.Windows.Forms.ToolStripContentPanel();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.transID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.appDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clientName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.busName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.occupancyType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.brgy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblUserType = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblUser = new System.Windows.Forms.ToolStripStatusLabel();
             this.registrationItem = new System.Windows.Forms.ToolStripMenuItem();
             this.databaseItem = new System.Windows.Forms.ToolStripMenuItem();
             this.backUpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -64,19 +77,6 @@
             this.orderOfPaymentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fireCodeFeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.transID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.appDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clientName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.busName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.occupancyType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.brgy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.lblUser = new System.Windows.Forms.ToolStripStatusLabel();
-            this.lblUserType = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -224,6 +224,142 @@
             this.menuStrip2.TabIndex = 1;
             this.menuStrip2.Text = "menuStrip2";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.transID,
+            this.appDate,
+            this.BID,
+            this.clientName,
+            this.busName,
+            this.occupancyType,
+            this.brgy});
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView1.Location = new System.Drawing.Point(14, 134);
+            this.dataGridView1.MultiSelect = false;
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.dataGridView1.Size = new System.Drawing.Size(1287, 446);
+            this.dataGridView1.TabIndex = 5;
+            // 
+            // transID
+            // 
+            this.transID.HeaderText = "Transaction ID";
+            this.transID.Name = "transID";
+            this.transID.ReadOnly = true;
+            this.transID.Width = 150;
+            // 
+            // appDate
+            // 
+            this.appDate.HeaderText = "Application Date";
+            this.appDate.Name = "appDate";
+            this.appDate.ReadOnly = true;
+            this.appDate.Width = 200;
+            // 
+            // BID
+            // 
+            this.BID.HeaderText = "Business ID No.";
+            this.BID.Name = "BID";
+            this.BID.ReadOnly = true;
+            this.BID.Width = 150;
+            // 
+            // clientName
+            // 
+            this.clientName.HeaderText = "Client Name";
+            this.clientName.Name = "clientName";
+            this.clientName.ReadOnly = true;
+            this.clientName.Width = 200;
+            // 
+            // busName
+            // 
+            this.busName.HeaderText = "Business Name";
+            this.busName.Name = "busName";
+            this.busName.ReadOnly = true;
+            this.busName.Width = 230;
+            // 
+            // occupancyType
+            // 
+            this.occupancyType.HeaderText = "Occupancy Type";
+            this.occupancyType.Name = "occupancyType";
+            this.occupancyType.ReadOnly = true;
+            this.occupancyType.Width = 150;
+            // 
+            // brgy
+            // 
+            this.brgy.HeaderText = "Barangay";
+            this.brgy.Name = "brgy";
+            this.brgy.ReadOnly = true;
+            this.brgy.Width = 170;
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.Location = new System.Drawing.Point(0, 99);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(1321, 25);
+            this.toolStrip1.TabIndex = 6;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1,
+            this.lblUser,
+            this.lblUserType});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 600);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(1321, 22);
+            this.statusStrip1.TabIndex = 7;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(79, 17);
+            this.toolStripStatusLabel1.Text = "Logged in As:";
+            // 
+            // lblUserType
+            // 
+            this.lblUserType.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUserType.Name = "lblUserType";
+            this.lblUserType.Size = new System.Drawing.Size(62, 17);
+            this.lblUserType.Text = "UserType";
+            // 
+            // lblUser
+            // 
+            this.lblUser.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUser.Image = ((System.Drawing.Image)(resources.GetObject("lblUser.Image")));
+            this.lblUser.Name = "lblUser";
+            this.lblUser.Size = new System.Drawing.Size(52, 17);
+            this.lblUser.Text = "User:";
+            // 
             // registrationItem
             // 
             this.registrationItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -347,142 +483,7 @@
             this.logoutToolStripMenuItem.Size = new System.Drawing.Size(62, 71);
             this.logoutToolStripMenuItem.Text = "Logout";
             this.logoutToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.transID,
-            this.appDate,
-            this.BID,
-            this.clientName,
-            this.busName,
-            this.occupancyType,
-            this.brgy});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView1.Location = new System.Drawing.Point(14, 134);
-            this.dataGridView1.MultiSelect = false;
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dataGridView1.Size = new System.Drawing.Size(1287, 446);
-            this.dataGridView1.TabIndex = 5;
-            // 
-            // transID
-            // 
-            this.transID.HeaderText = "Transaction ID";
-            this.transID.Name = "transID";
-            this.transID.ReadOnly = true;
-            this.transID.Width = 150;
-            // 
-            // appDate
-            // 
-            this.appDate.HeaderText = "Application Date";
-            this.appDate.Name = "appDate";
-            this.appDate.ReadOnly = true;
-            this.appDate.Width = 200;
-            // 
-            // BID
-            // 
-            this.BID.HeaderText = "Business ID No.";
-            this.BID.Name = "BID";
-            this.BID.ReadOnly = true;
-            this.BID.Width = 150;
-            // 
-            // clientName
-            // 
-            this.clientName.HeaderText = "Client Name";
-            this.clientName.Name = "clientName";
-            this.clientName.ReadOnly = true;
-            this.clientName.Width = 200;
-            // 
-            // busName
-            // 
-            this.busName.HeaderText = "Business Name";
-            this.busName.Name = "busName";
-            this.busName.ReadOnly = true;
-            this.busName.Width = 230;
-            // 
-            // occupancyType
-            // 
-            this.occupancyType.HeaderText = "Occupancy Type";
-            this.occupancyType.Name = "occupancyType";
-            this.occupancyType.ReadOnly = true;
-            this.occupancyType.Width = 150;
-            // 
-            // brgy
-            // 
-            this.brgy.HeaderText = "Barangay";
-            this.brgy.Name = "brgy";
-            this.brgy.ReadOnly = true;
-            this.brgy.Width = 170;
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.Location = new System.Drawing.Point(0, 99);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1321, 25);
-            this.toolStrip1.TabIndex = 6;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1,
-            this.lblUser,
-            this.lblUserType});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 600);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1321, 22);
-            this.statusStrip1.TabIndex = 7;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(79, 17);
-            this.toolStripStatusLabel1.Text = "Logged in As:";
-            // 
-            // lblUser
-            // 
-            this.lblUser.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUser.Image = ((System.Drawing.Image)(resources.GetObject("lblUser.Image")));
-            this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(52, 17);
-            this.lblUser.Text = "User:";
-            // 
-            // lblUserType
-            // 
-            this.lblUserType.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserType.Name = "lblUserType";
-            this.lblUserType.Size = new System.Drawing.Size(62, 17);
-            this.lblUserType.Text = "UserType";
+            this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
             // 
             // frmMainMenu
             // 

@@ -35,7 +35,8 @@
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.PasswordLabel = new System.Windows.Forms.Label();
             this.UsernameLabel = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.changePass = new System.Windows.Forms.LinkLabel();
+            this.progressBar = new System.Windows.Forms.ProgressBar();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -114,18 +115,27 @@
             this.UsernameLabel.Text = "&User Name";
             this.UsernameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // linkLabel1
+            // changePass
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.LinkColor = System.Drawing.Color.White;
-            this.linkLabel1.Location = new System.Drawing.Point(64, 256);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(117, 18);
-            this.linkLabel1.TabIndex = 33;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Change Password";
+            this.changePass.AutoSize = true;
+            this.changePass.BackColor = System.Drawing.Color.Transparent;
+            this.changePass.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.changePass.LinkColor = System.Drawing.Color.White;
+            this.changePass.Location = new System.Drawing.Point(64, 256);
+            this.changePass.Name = "changePass";
+            this.changePass.Size = new System.Drawing.Size(117, 18);
+            this.changePass.TabIndex = 33;
+            this.changePass.TabStop = true;
+            this.changePass.Text = "Change Password";
+            this.changePass.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.changePass_LinkClicked);
+            // 
+            // progressBar
+            // 
+            this.progressBar.Location = new System.Drawing.Point(428, 256);
+            this.progressBar.Name = "progressBar";
+            this.progressBar.Size = new System.Drawing.Size(100, 23);
+            this.progressBar.TabIndex = 34;
+            this.progressBar.Visible = false;
             // 
             // frmuserLogin
             // 
@@ -135,7 +145,8 @@
             this.BackgroundImage = global::BFPMIS.Properties.Resources.blue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(596, 322);
-            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.progressBar);
+            this.Controls.Add(this.changePass);
             this.Controls.Add(this.groupBox1);
             this.DoubleBuffered = true;
             this.MaximizeBox = false;
@@ -160,7 +171,8 @@
         internal System.Windows.Forms.TextBox txtUsername;
         internal System.Windows.Forms.Label PasswordLabel;
         internal System.Windows.Forms.Label UsernameLabel;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel changePass;
+        internal System.Windows.Forms.ProgressBar progressBar;
 
     }
 }

@@ -39,6 +39,16 @@ namespace BFPMIS
             register.Show();
         }
 
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmuserLogin userLogin = new frmuserLogin();
+            userLogin.Show();
+            userLogin.txtUsername.Text = "";
+            userLogin.txtPassword.Text = "";
+            userLogin.txtUsername.Focus();
+        }
+
         
     }
 }
