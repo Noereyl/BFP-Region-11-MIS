@@ -13,6 +13,7 @@ namespace BFPMIS
     public partial class frmApplicant : Form
     {
         MySQLConnect db = new MySQLConnect();
+        public string txtBID;
 
         public frmApplicant()
         {
@@ -84,7 +85,7 @@ namespace BFPMIS
                     txtMobile.Clear();
                     txtTPN.Clear();
                     txtAddress.Clear();
-                    txtfloorArea.Clear();
+                    txtfloorArea.Clear();   
                     txtBdgHeight.Clear();
                     this.Close();
                     

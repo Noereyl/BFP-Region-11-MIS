@@ -28,7 +28,7 @@ namespace BFPMIS
         }
         private void menuUser_Click(object sender, EventArgs e)
         {
-            frmUser addNew = new frmUser();
+            frmRegistration addNew = new frmRegistration();
             if (addNew.ShowDialog(this) == System.Windows.Forms.DialogResult.OK)
             {
                 addNew.ShowDialog();

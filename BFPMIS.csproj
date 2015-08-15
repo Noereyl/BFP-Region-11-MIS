@@ -82,11 +82,11 @@
     <Compile Include="frmFCF.Designer.cs">
       <DependentUpon>frmFCF.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMain.cs">
+    <Compile Include="frmMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain.Designer.cs">
-      <DependentUpon>frmMain.cs</DependentUpon>
+    <Compile Include="frmMainMenu.Designer.cs">
+      <DependentUpon>frmMainMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain2.cs">
       <SubType>Form</SubType>
@@ -118,17 +118,23 @@
     <Compile Include="frmNTC.Designer.cs">
       <DependentUpon>frmNTC.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmShowMoreInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowMoreInfo.Designer.cs">
+      <DependentUpon>frmShowMoreInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmupdateUser.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmupdateUser.Designer.cs">
       <DependentUpon>frmupdateUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmUser.cs">
+    <Compile Include="frmRegistration.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmUser.Designer.cs">
-      <DependentUpon>frmUser.cs</DependentUpon>
+    <Compile Include="frmRegistration.Designer.cs">
+      <DependentUpon>frmRegistration.cs</DependentUpon>
     </Compile>
     <Compile Include="frmuserLogin.cs">
       <SubType>Form</SubType>
@@ -153,8 +159,8 @@
     <EmbeddedResource Include="frmFCF.resx">
       <DependentUpon>frmFCF.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMain.resx">
-      <DependentUpon>frmMain.cs</DependentUpon>
+    <EmbeddedResource Include="frmMainMenu.resx">
+      <DependentUpon>frmMainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain2.resx">
       <DependentUpon>frmMain2.cs</DependentUpon>
@@ -171,11 +177,14 @@
     <EmbeddedResource Include="frmNTC.resx">
       <DependentUpon>frmNTC.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmShowMoreInfo.resx">
+      <DependentUpon>frmShowMoreInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmupdateUser.resx">
       <DependentUpon>frmupdateUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmUser.resx">
-      <DependentUpon>frmUser.cs</DependentUpon>
+    <EmbeddedResource Include="frmRegistration.resx">
+      <DependentUpon>frmRegistration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmuserLogin.resx">
       <DependentUpon>frmuserLogin.cs</DependentUpon>
@@ -188,6 +197,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -201,6 +211,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\register.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon three.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form_icon_25603.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\korganizer-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCRQInvoice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editcopy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form_red-50x50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50x50px-ZC-273ad177_certificate.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

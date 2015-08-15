@@ -83,7 +83,11 @@ namespace BFPMIS
         {
             string format = "yyyy-MM-dd HH:MM:ss";
             transactdb("INSERT INTO clienttbl (application_date, business_id, bp_no, mobile_no, landline_no, business_name, taxpayer_name, address, brgy, occupancy_type, building_height, floor_area, cm_used) VALUES ('" + _data.ApplicationDate.ToString(format) + "', '" + _data.BussinessID + "', '" + _data.BussinessPermitNo + "', '" + _data.MobileNo + "', '" + _data.LandlineNo + "', '" + _data.BussinessName + "', '" + _data.TaxPayerName + "', '" + _data.Address + "', '" + _data.Brgy + "', '" + _data.OccupancyType + "', '" + _data.BuildingHeight + "', '" + _data.FloorArea + "', '" + _data.ConstructionMaterialUsed + "')");
-        
+        }
+
+        public void safeDelete(int ndex)
+        {
+            transactdb("UPDATE `bfpdb`, `clienttbl` SET `isDeleted` = '1' WHERE `ndex` = " + ndex);
         
         }
         private void transactdb(string _query)

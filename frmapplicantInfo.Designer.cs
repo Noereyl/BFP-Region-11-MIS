@@ -42,6 +42,12 @@
             this.columnTaxpayerName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label1 = new System.Windows.Forms.Label();
             this.txtSearch = new System.Windows.Forms.TextBox();
+            this.basurahan = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,21 +75,22 @@
             // menuNew
             // 
             this.menuNew.Name = "menuNew";
-            this.menuNew.Size = new System.Drawing.Size(112, 22);
+            this.menuNew.Size = new System.Drawing.Size(152, 24);
             this.menuNew.Text = "New";
             this.menuNew.Click += new System.EventHandler(this.menuNew_Click);
             // 
             // menuUpdate
             // 
             this.menuUpdate.Name = "menuUpdate";
-            this.menuUpdate.Size = new System.Drawing.Size(112, 22);
+            this.menuUpdate.Size = new System.Drawing.Size(152, 24);
             this.menuUpdate.Text = "Update";
             // 
             // menuDelete
             // 
             this.menuDelete.Name = "menuDelete";
-            this.menuDelete.Size = new System.Drawing.Size(112, 22);
+            this.menuDelete.Size = new System.Drawing.Size(152, 24);
             this.menuDelete.Text = "Delete";
+            this.menuDelete.Click += new System.EventHandler(this.menuDelete_Click);
             // 
             // btnShowmore
             // 
@@ -94,6 +101,7 @@
             this.btnShowmore.TabIndex = 2;
             this.btnShowmore.Text = "Show More";
             this.btnShowmore.UseVisualStyleBackColor = true;
+            this.btnShowmore.Click += new System.EventHandler(this.btnShowmore_Click);
             // 
             // lvItem
             // 
@@ -106,12 +114,13 @@
             this.lvItem.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvItem.FullRowSelect = true;
             this.lvItem.GridLines = true;
-            this.lvItem.Location = new System.Drawing.Point(0, 63);
+            this.lvItem.Location = new System.Drawing.Point(0, 67);
             this.lvItem.Name = "lvItem";
             this.lvItem.Size = new System.Drawing.Size(1033, 684);
             this.lvItem.TabIndex = 3;
             this.lvItem.UseCompatibleStateImageBehavior = false;
             this.lvItem.View = System.Windows.Forms.View.Details;
+            this.lvItem.SelectedIndexChanged += new System.EventHandler(this.lvItem_SelectedIndexChanged_1);
             // 
             // columnID
             // 
@@ -156,12 +165,56 @@
             this.txtSearch.Size = new System.Drawing.Size(785, 25);
             this.txtSearch.TabIndex = 5;
             // 
+            // basurahan
+            // 
+            this.basurahan.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4,
+            this.columnHeader5});
+            this.basurahan.Font = new System.Drawing.Font("Lucida Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.basurahan.FullRowSelect = true;
+            this.basurahan.GridLines = true;
+            this.basurahan.Location = new System.Drawing.Point(0, 452);
+            this.basurahan.Name = "basurahan";
+            this.basurahan.Size = new System.Drawing.Size(1033, 285);
+            this.basurahan.TabIndex = 6;
+            this.basurahan.UseCompatibleStateImageBehavior = false;
+            this.basurahan.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "ID";
+            this.columnHeader1.Width = 93;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Business ID";
+            this.columnHeader2.Width = 188;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Business Permit No.";
+            this.columnHeader3.Width = 190;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Business Name";
+            this.columnHeader4.Width = 278;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Tax Payer Name";
+            this.columnHeader5.Width = 281;
+            // 
             // frmapplicantInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(1166, 749);
+            this.Controls.Add(this.basurahan);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lvItem);
@@ -196,5 +249,11 @@
         private System.Windows.Forms.ColumnHeader columnTaxpayerName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.ListView basurahan;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
     }
 }

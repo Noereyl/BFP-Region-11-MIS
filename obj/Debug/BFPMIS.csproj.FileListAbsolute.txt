@@ -35,14 +35,15 @@ C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmapplicantInfo.resources
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmBuildinginfo.resources
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmFCF.resources
-C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmMain.resources
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmOP.resources
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmInitialnspection.resources
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmFSIC.resources
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmNTC.resources
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmupdateUser.resources
-C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmUser.resources
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmuserLogin.resources
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.Properties.Resources.resources
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.csproj.GenerateResource.Cache
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmMain2.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmShowMoreInfo.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmMainMenu.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmRegistration.resources

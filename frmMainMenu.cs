@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BFPMIS
 {
-    public partial class frmMain : Form
+    public partial class frmMainMenu : Form
     {
-        public frmMain()
+        public frmMainMenu()
         {
             InitializeComponent();
         }
@@ -25,5 +25,20 @@ namespace BFPMIS
                 applicant.ShowDialog();
             }
         }
+
+        
+
+        private void inspectionOrderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void registrationItem_Click(object sender, EventArgs e)
+        {
+            frmRegistration register = new frmRegistration();
+            register.Show();
+        }
+
+        
     }
 }

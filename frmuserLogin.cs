@@ -31,13 +31,14 @@ namespace BFPMIS
 
                 if (dr.Read() == true)
                 {
-                    frmMain main = new frmMain();
+                    frmMainMenu main = new frmMainMenu();
                     main.Show();
                     Hide();
                 }
                 else
                 {
                     MessageBox.Show("Invalid Username/Password!", "Error!");
+
                 }
                 mycon.Close();
             }
@@ -48,26 +49,37 @@ namespace BFPMIS
        }
         private void frmuserLogin_Load(object sender, EventArgs e)
         {
-            
-        }
 
-
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            Login();
-        }
-    
-
-        private void btnCancel_Click(object sender, EventArgs e)
-        {
-            txtUsername.Clear();
-            txtPassword.Clear();
-            this.Close();
         }
 
         private void txtUsername_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnLogin_Click_1(object sender, EventArgs e)
+        {
+            
+            if (txtUsername.Text == "")
+            {
+                MessageBox.Show("Please enter username", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtUsername.Focus();
+                return;
+            }
+            if (txtPassword.Text == "")
+            {
+                MessageBox.Show("Please enter password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtPassword.Focus();
+                return;
+            }
+            Login();
+        }
+
+        private void btnCancel_Click_1(object sender, EventArgs e)
+        {
+            txtUsername.Clear();
+            txtPassword.Clear();
+            this.Close();
         }
       
     }
