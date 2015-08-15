@@ -1,0 +1,48 @@
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\bin\Debug\BFPMIS.exe.config
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.csprojResolveAssemblyReference.cache
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmApplicant.resources
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmBuildinginfo.resources
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmFCF.resources
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmOP.resources
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmInitialnspection.resources
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmFSIC.resources
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmNTC.resources
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmUser.resources
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.Properties.Resources.resources
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.csproj.GenerateResource.Cache
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\bin\Debug\BFPMIS.exe
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\bin\Debug\BFPMIS.pdb
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\bin\Debug\MySql.Data.dll
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\bin\Debug\MySql.Web.dll
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.exe
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.pdb
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmMain.resources
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmupdateUser.resources
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmuserLogin.resources
+C:\Users\Joy\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmapplicantInfo.resources
+C:\Users\Reyle T. Revira\Desktop\BFPMIS\BFPMIS\BFPMIS\bin\Debug\BFPMIS.exe.config
+C:\Users\Reyle T. Revira\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.exe
+C:\Users\Reyle T. Revira\Desktop\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.pdb
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\bin\Debug\BFPMIS.exe.config
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.exe
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.pdb
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\bin\Debug\BFPMIS.exe
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\bin\Debug\BFPMIS.pdb
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\bin\Debug\MySql.Data.dll
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\bin\Debug\MySql.Web.dll
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.csprojResolveAssemblyReference.cache
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmApplicant.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmapplicantInfo.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmBuildinginfo.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmFCF.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmMain.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmOP.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmInitialnspection.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmFSIC.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmNTC.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmupdateUser.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmUser.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmuserLogin.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.Properties.Resources.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.csproj.GenerateResource.Cache
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmMain2.resources
