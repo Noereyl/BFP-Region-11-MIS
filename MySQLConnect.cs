@@ -90,12 +90,11 @@ namespace BFPMIS
             transactdb("UPDATE `bfpdb`, `clienttbl` SET `isDeleted` = '1' WHERE `ndex` = " + ndex);
         
         }
-
-        
         private void transactdb(string _query)
         {
 
             string query = _query;
+
             try
             {
                 con.Open();

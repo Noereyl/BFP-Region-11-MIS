@@ -76,12 +76,6 @@
     <Compile Include="frmBuildinginfo.Designer.cs">
       <DependentUpon>frmBuildinginfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmChangePassword.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmChangePassword.Designer.cs">
-      <DependentUpon>frmChangePassword.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmFCF.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,12 +111,6 @@
     </Compile>
     <Compile Include="frmNTC.Designer.cs">
       <DependentUpon>frmNTC.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmRegisteredUserDetails.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmRegisteredUserDetails.Designer.cs">
-      <DependentUpon>frmRegisteredUserDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="frmShowMoreInfo.cs">
       <SubType>Form</SubType>
@@ -162,9 +150,6 @@
     <EmbeddedResource Include="frmBuildinginfo.resx">
       <DependentUpon>frmBuildinginfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmChangePassword.resx">
-      <DependentUpon>frmChangePassword.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmFCF.resx">
       <DependentUpon>frmFCF.cs</DependentUpon>
     </EmbeddedResource>
@@ -182,9 +167,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmNTC.resx">
       <DependentUpon>frmNTC.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmRegisteredUserDetails.resx">
-      <DependentUpon>frmRegisteredUserDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmShowMoreInfo.resx">
       <DependentUpon>frmShowMoreInfo.cs</DependentUpon>
