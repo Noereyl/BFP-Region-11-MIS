@@ -81,6 +81,18 @@ namespace BFPMIS
             txtPassword.Clear();
             this.Close();
         }
+
+        private void changePass_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            frmChangePassword changePass = new frmChangePassword();
+            changePass.Show();
+            changePass.txtUserName.Text = "";
+            changePass.txtNewPassword.Text = "";
+            changePass.txtOldPassword.Text = "";
+            changePass.txtConfirmPassword.Text = "";
+        }
+
       
     }
 }

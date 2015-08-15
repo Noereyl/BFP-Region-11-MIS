@@ -43,7 +43,8 @@ C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmuserLogin.resources
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.Properties.Resources.resources
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.csproj.GenerateResource.Cache
-C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmMain2.resources
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmShowMoreInfo.resources
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmMainMenu.resources
 C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmRegistration.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmRegisteredUserDetails.resources
+C:\Users\Reyle T. Revira\OneDrive\FILES 2015\Software Engineering\BFPMIS\BFPMIS\BFPMIS\obj\Debug\BFPMIS.frmChangePassword.resources

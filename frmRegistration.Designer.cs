@@ -32,7 +32,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnUpdate_record = new System.Windows.Forms.Button();
-            this.btnGetDetails = new System.Windows.Forms.Button();
             this.btnNewRecord = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
@@ -94,13 +93,12 @@
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.btnUpdate_record);
-            this.panel1.Controls.Add(this.btnGetDetails);
             this.panel1.Controls.Add(this.btnNewRecord);
             this.panel1.Controls.Add(this.btnDelete);
             this.panel1.Controls.Add(this.btnSave);
-            this.panel1.Location = new System.Drawing.Point(41, 275);
+            this.panel1.Location = new System.Drawing.Point(86, 266);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(464, 61);
+            this.panel1.Size = new System.Drawing.Size(382, 61);
             this.panel1.TabIndex = 13;
             // 
             // btnUpdate_record
@@ -113,17 +111,6 @@
             this.btnUpdate_record.TabIndex = 3;
             this.btnUpdate_record.Text = "&Update";
             this.btnUpdate_record.UseVisualStyleBackColor = true;
-            // 
-            // btnGetDetails
-            // 
-            this.btnGetDetails.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGetDetails.Location = new System.Drawing.Point(365, 13);
-            this.btnGetDetails.Name = "btnGetDetails";
-            this.btnGetDetails.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnGetDetails.Size = new System.Drawing.Size(82, 31);
-            this.btnGetDetails.TabIndex = 4;
-            this.btnGetDetails.Text = "&Get Data";
-            this.btnGetDetails.UseVisualStyleBackColor = true;
             // 
             // btnNewRecord
             // 
@@ -328,7 +315,6 @@
         private System.Windows.Forms.Button btnCheck;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnUpdate_record;
-        private System.Windows.Forms.Button btnGetDetails;
         private System.Windows.Forms.Button btnNewRecord;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnSave;
