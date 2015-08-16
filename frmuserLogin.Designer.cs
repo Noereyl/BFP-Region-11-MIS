@@ -37,6 +37,7 @@
             this.UsernameLabel = new System.Windows.Forms.Label();
             this.changePass = new System.Windows.Forms.LinkLabel();
             this.progressBar = new System.Windows.Forms.ProgressBar();
+            this.txtUsertype = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,6 +50,7 @@
             this.groupBox1.Controls.Add(this.txtUsername);
             this.groupBox1.Controls.Add(this.PasswordLabel);
             this.groupBox1.Controls.Add(this.UsernameLabel);
+            this.groupBox1.Controls.Add(this.progressBar);
             this.groupBox1.Location = new System.Drawing.Point(67, 35);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(461, 215);
@@ -131,11 +133,19 @@
             // 
             // progressBar
             // 
-            this.progressBar.Location = new System.Drawing.Point(428, 256);
+            this.progressBar.Location = new System.Drawing.Point(327, 91);
             this.progressBar.Name = "progressBar";
             this.progressBar.Size = new System.Drawing.Size(100, 23);
             this.progressBar.TabIndex = 34;
             this.progressBar.Visible = false;
+            // 
+            // txtUsertype
+            // 
+            this.txtUsertype.Location = new System.Drawing.Point(394, 256);
+            this.txtUsertype.Name = "txtUsertype";
+            this.txtUsertype.Size = new System.Drawing.Size(100, 20);
+            this.txtUsertype.TabIndex = 35;
+            this.txtUsertype.Visible = false;
             // 
             // frmuserLogin
             // 
@@ -145,7 +155,7 @@
             this.BackgroundImage = global::BFPMIS.Properties.Resources.blue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(596, 322);
-            this.Controls.Add(this.progressBar);
+            this.Controls.Add(this.txtUsertype);
             this.Controls.Add(this.changePass);
             this.Controls.Add(this.groupBox1);
             this.DoubleBuffered = true;
@@ -173,6 +183,7 @@
         internal System.Windows.Forms.Label UsernameLabel;
         private System.Windows.Forms.LinkLabel changePass;
         internal System.Windows.Forms.ProgressBar progressBar;
+        private System.Windows.Forms.TextBox txtUsertype;
 
     }
 }

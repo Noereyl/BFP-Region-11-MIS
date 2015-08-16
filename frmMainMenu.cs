@@ -49,6 +49,18 @@ namespace BFPMIS
             userLogin.txtUsername.Focus();
         }
 
+        private void registrationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmRegistration register = new frmRegistration();
+            register.Show();
+        }
+
+        private void clientsItem_Click(object sender, EventArgs e)
+        {
+            frmApplicant client = new frmApplicant();
+            client.Show();
+        }
+
         
     }
 }

@@ -102,13 +102,16 @@ namespace BFPMIS
             savingApplicant();
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
+
+        private void btnCancel_Click_1(object sender, EventArgs e)
         {
             if (MessageBox.Show("Are you sure you want to cancel the transaction?", "User", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
             {
                 this.Close();
             }
         }
+
+        
 
 
     }
